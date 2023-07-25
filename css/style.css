@@ -1,1 +1,532 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');@font-face{font-family: 'DrukWideBold'; src: url(//stuff/FontsFree-Net-Druk-Wide-Medium.ttf);}.load{background: black; height: 100vh; width: 100%; z-index: 100; justify-content: center; align-items: center; display: flex;}.load h2{color: white; font-family: 'Montserrat'; font-size: 3rem; font-weight: 900; text-align: center; letter-spacing: 0.2rem;}body{margin: 0; padding: 0; font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 15px;transition: all .5s ease-in-out; background-color: black; filter: blur(100%); background: linear-gradient(-45deg, #434343, #000000, #222, #2d1c29);background-size: 400% 400%;animation: gradient 15s ease infinite;}::selection{color: black; background-color: white;}@keyframes gradient{0%{background-position: 0% 50%;}50%{background-position: 100% 50%;}100%{background-position: 0% 50%;}}html{scroll-behavior: smooth;}::-webkit-scrollbar{background-color: #222; width: 4px;}::-webkit-scrollbar-thumb{background-color: crimson;}/* Cursor *//* Nav */.ikr-nav{background-color: none; display: flex; /* padding: 15px; padding-top: 3px; */ text-transform: uppercase; justify-content: space-between; align-items: center; color: wheat; text-rendering:auto;}.ikr-nav h2{font-weight: 900; font-size: 40px; text-transform: none; padding-left: 15px; cursor: none; transition: all 0.5s ease}nav ul{text-decoration: none; display: flex; list-style-type: none;}nav ul li{padding-right: 30px;}a{letter-spacing: 0px; transition: all 0.5s ease;}a:hover{color: crimson; letter-spacing: 2px; cursor: pointer;}.hr-lol{transform: translateY(-17px); height: 8px; fill: wheat; background-color: wheat;}nav ul li a{font-size: 20px; font-weight: 500;}/* Change */#hero{width: 100%; height: 84vh; align-items: center; justify-content: center; display: flex; transition: all 0.5s ease; animation: grow 2s;}.changer{color: white; font-size: 100px; padding: 15px; font-weight: 600; font-family: 'Montserrat';}.text{color: white; border-right: 2px solid white; font-size: 100px; font-weight: 600; font-family: 'Montserrat'; color: crimson ;}/* About */#about{width: 100%; height: 75vh; z-index: 1; display: flex; animation: grow 2s;}@keyframes grow{0%{display: none; opacity: 0;}1%{display: flex; opacity: 0;}100%{opacity: 1; display: flex;}}#about h2{font-size: 30px; font-weight: 450; text-align: center; padding-left: 15px;}h2{display: flex;}.sus{display: flex; justify-content: center; align-items: center; font-size: 30px; font-weight: 500; color: white;}#about div{align-items: center; justify-content: center; display: flex; margin-top: 20px;}.changer2{font-size: 100px; color: crimson; font-weight: 600;}.text2{font-size: 100px; color: white; font-weight: 600;}#projects{display: flex; flex-direction: column; align-items: center; justify-content: center; animation: grow 2s;}#projects .container{display: flex; flex-direction: column; max-width: 1200px; justify-content: center; align-items: left; margin: 0 auto;}#projects .container a.lonely-link{margin: 0 auto; color: #eee; text-align: center; background: #222; width: 250px; padding: 15px 10px; text-decoration: none;}#projects .container a.lonely-link::after{content: ' »';}#projects article{display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: stretch; max-width: 1200px; margin: 0 auto; margin-bottom: 50px;}.project-tile{max-width: 400px; display: flex; flex-direction: column; transition: 0.3s; background: #222; margin: 17px 24px;}.project-tile .card-info{padding: 0px 20px; color: #eee; font-size: 20px;}.card-info:hover{letter-spacing: 0px;}.card-info a:hover{letter-spacing: 0px;}#links{background: #222; color: #eee; text-align: center; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center;}#links a{text-decoration: none; padding: 10px 20px; background: #eee; color: #222; border-radius: 3px; opacity: 0.9; transition: 0.3s; margin: 5px;}#links a:hover{opacity: 1;}.titleh2project{color: white; font-size: 100px; margin-top: 15px;}/* Contact */#contact{width: 100%; height: 70vh; opacity: 1; animation: grow 2s; font-family: 'Montserrat'; display: block; align-items: center; justify-content: center; color: white;}#contact span{color: crimson;}#contact h1{font-size: 100px;}#contact div{display: flex; justify-content: center; align-items: center;}#contact div a{padding: 32px;}#contact div a img{width: 60px; height: 60px;}@media screen and (max-width:1030px){.cursor,.cursor2,.cursor3{display: none;}}@media screen and (max-width:826px){.changer{font-size: 80px;}.text{font-size: 80px;}}@media screen and (max-width:770px){.cursor,.cursor2,.cursor3{display: none;}#contact h1{font-size: 70px;}.text2{font-size: 80px;}.changer2{font-size: 80px;}#about h2{font-size: 22px; font-weight: 450; text-align: center; max-width: 600px;}.text{color: white; border-right: 2px solid white; font-size: 60px; font-weight: 600; font-family: 'Montserrat'; color: crimson;}.changer{color: white; font-size: 60px; padding: 15px; font-weight: 600; font-family: 'Montserrat';}nav ul li{padding-right: 25px;}.ikr-nav{background-color: none; display: flex; text-transform: uppercase; justify-content: space-between; align-items: center; color: wheat; text-rendering: auto; flex-direction: column;}.ikr-nav h2{font-size: 35px;}nav ul li a{font-size: 15px;}.hr-lol{transform:translateY(0px) ;}}@media screen and (max-width:622px){.titleh2project{font-size: 70px;}#contact h1{font-size: 55px;}}@media screen and (max-width:558px){.changer{font-size: 35px;}.cursor,.cursor2,.cursor3{display: none;}.text{font-size: 35px; transform: translateX(-12px);}}@media screen and (max-width:452px){#contact div a{padding: 16px;}#contact div a img{width: 40px; height: 40px;}.text2{font-size: 50px;}#about h2{font-size: 18px; font-weight: 450; text-align: center; max-width: 350px;}.titleh2project{font-size: 60px;}nav ul li a{font-size: 13px;}.project-tile{max-width: 300px;}nav ul li{padding-right: 18px;}#contact p{margin-left: 20px; font-size: 16px;}}@media screen and (max-width:391px){nav ul li{padding-right: 13px;}nav ul{transform: translateX(-8px);}}@media screen and (max-width:376px){nav ul li a{font-size: 12px;}nav ul li{padding-right: 11px;}}@media screen and (max-width:347px){.titleh2project{font-size: 40px;}.project-tile{max-width: 250px;}nav ul{transform: translateX(-15px);}nav ul li a{font-size: 11px;}nav ul li a:hover{letter-spacing: 0px;}.changer{font-size: 30px;}.text{font-size: 30px;}.text2{font-size: 42px;}#contact h1{font-size: 40px;}}@media screen and (max-width:281px){nav ul li a{font-size: 10px;}nav ul{transform: translateX(-17px);}.text2{font-size: 35px;}.project-tile{max-width: 223px;}.changer{font-size: 25px;}.text{font-size: 25px;}}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: 'DrukWideBold';
+    src: url(//stuff/FontsFree-Net-Druk-Wide-Medium.ttf);
+}
+
+
+
+
+.load {
+    background: black;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+  }
+  
+.load h2 {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	transition: all .5s ease-in-out;
+    background-color: black;
+    filter: blur(100%);
+    background: linear-gradient(-45deg, #434343, #000000, #222, #2d1c29);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+::selection{
+    color: black;
+    background-color: white;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    background-color: #222;
+    width: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: crimson;
+}
+/* Cursor */
+
+
+
+
+/* Nav */
+.ikr-nav{
+    background-color: none;
+    display: flex;
+        /* padding: 15px;
+        padding-top: 3px; */
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center;
+    color: wheat;
+    text-rendering:auto;
+}
+.ikr-nav h2{
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: none;
+    padding-left: 15px;
+    cursor: none;
+    transition: all 0.5s ease
+}
+nav ul{
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    padding-right: 30px;
+}
+
+a{
+    letter-spacing: 0px;
+    transition: all 0.5s ease;
+}
+a:hover{
+    color: crimson;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.hr-lol{
+    transform: translateY(-17px);
+    height: 8px;
+    fill: wheat;
+    background-color: wheat;
+}
+
+nav ul li a{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Change */
+
+#hero {
+    width: 100%;
+    height: 84vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.5s ease;
+    animation: grow 2s;
+    
+}
+.changer{
+    color: white;
+      font-size: 100px;
+      padding: 15px;
+      font-weight: 600;
+      font-family: 'Montserrat';
+}
+.text{
+    color: white;
+      border-right: 2px solid white;
+      font-size: 100px;
+      font-weight: 600;
+      font-family: 'Montserrat';
+      color: crimson    ;
+}
+
+/* About */
+#about{
+    width: 100%;
+    height: 75vh;
+    z-index: 1;
+    display: flex;
+    animation: grow 2s;
+}
+@keyframes grow {
+    0% {
+      display: none;
+      opacity: 0;
+    }
+    1% {
+      display: flex;
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      display: flex;
+    }
+  }
+#about h2{
+    font-size: 30px;
+    font-weight: 450;
+    text-align: center;
+    padding-left: 15px;
+}
+h2{
+    display: flex;
+}
+.sus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+#about div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+ 
+    
+}
+
+.changer2{
+    font-size: 100px;
+    color:  crimson;
+    font-weight: 600;
+}
+.text2{
+    font-size: 100px;
+    color:  white;
+    font-weight: 600;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    animation: grow 2s;
+}
+#projects .container {
+      display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+      justify-content: center;
+      align-items: left;
+      margin: 0 auto; 
+}
+#projects .container a.lonely-link {
+        margin: 0 auto;
+        color: #eee;
+        text-align: center;
+        background: #222;
+        width: 250px;
+        padding: 15px 10px;
+        text-decoration: none; 
+}
+       
+#projects .container a.lonely-link::after {
+          content: ' »'; 
+}
+#projects article {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: stretch;
+      max-width: 1200px;
+      margin: 0 auto;
+      margin-bottom: 50px; 
+}
+  
+.project-tile {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    background: #222;
+    margin: 17px 24px;
+}
+.project-tile .card-info {
+      padding: 0px 20px;
+      color: #eee; 
+      font-size: 20px;
+
+}
+.card-info:hover{
+    letter-spacing: 0px;
+}
+.card-info a:hover{
+    letter-spacing: 0px;
+}
+  
+#links {
+    background: #222;
+    color: #eee;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+#links a {
+      text-decoration: none;
+      padding: 10px 20px;
+      background: #eee;
+      color: #222;
+      border-radius: 3px;
+      opacity: 0.9;
+      transition: 0.3s;
+      margin: 5px; 
+}
+      
+#links a:hover {
+        opacity: 1; 
+}
+.titleh2project{
+    color: white;
+    font-size: 100px;
+    margin-top: 15px;
+}
+
+/* Contact */
+#contact{
+    width: 100%;
+    height: 70vh;
+    opacity: 1;
+    animation: grow 2s;
+    font-family: 'Montserrat';
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#contact span{
+    color: crimson;
+}
+#contact h1{
+    font-size: 100px;
+}
+#contact div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact div a{
+    padding: 32px;
+}
+#contact div a img{
+    width: 60px;
+    height: 60px;
+}
+
+
+  
+
+
+@media screen and (max-width:1030px){
+    .cursor,.cursor2,.cursor3{
+        display: none;
+    }
+}
+@media screen and (max-width:826px){
+    .changer{
+        font-size: 80px;
+    }
+    .text{
+        font-size: 80px;
+    }
+
+}
+@media screen and (max-width:770px){
+    .cursor,.cursor2,.cursor3{
+        display: none;
+    }
+    #contact h1 {
+        font-size: 70px;
+    }
+    .text2{
+        font-size: 80px;
+    }
+    .changer2{
+        font-size: 80px;
+    }
+    #about h2 {
+        font-size: 22px;
+        font-weight: 450;
+        text-align: center;
+        max-width: 600px;
+    }
+    .text {
+        color: white;
+        border-right: 2px solid white;
+        font-size: 60px;
+        font-weight: 600;
+        font-family: 'Montserrat';
+        color: crimson;
+    }
+    .changer {
+        color: white;
+        font-size: 60px;
+        padding: 15px;
+        font-weight: 600;
+        font-family: 'Montserrat';
+    }
+    nav ul li {
+        padding-right: 25px;
+    }
+    .ikr-nav {
+        background-color: none;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: space-between;
+        align-items: center;
+        color: wheat;
+        text-rendering: auto;
+        flex-direction: column;
+    }
+    .ikr-nav h2{
+        font-size: 35px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    .hr-lol{
+        transform:translateY(0px) ;
+    }
+}
+@media screen and (max-width:622px){
+    .titleh2project{
+        font-size: 70px;
+    }
+    #contact h1 {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:558px){
+    .changer{
+        font-size: 35px;
+    }
+    .cursor,.cursor2,.cursor3{
+        display: none;
+    }
+    .text{
+        font-size: 35px;
+        transform: translateX(-12px);
+    }
+}
+
+@media screen and (max-width:452px){
+    #contact div a {
+        padding: 16px;
+    }
+    #contact div a img {
+        width: 40px;
+        height: 40px;
+    }
+    .text2{
+        font-size: 50px;
+    }
+    #about h2 {
+        font-size: 18px;
+        font-weight: 450;   
+        text-align: center;
+        max-width: 350px;
+    }
+    .titleh2project{
+        font-size: 60px;
+    }
+    nav ul li a {
+        font-size: 13px;
+    }
+    .project-tile{
+        max-width: 300px;
+    }
+    nav ul li {
+        padding-right: 18px;
+    }
+    #contact p {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:391px){
+    nav ul li {
+        padding-right: 13px;
+    }
+    nav ul{
+        transform: translateX(-8px);
+    }
+}
+
+
+@media screen and (max-width:376px){
+    nav ul li a {
+        font-size: 12px;
+    }
+    nav ul li {
+        padding-right: 11px;
+    }
+}
+
+@media screen and (max-width:347px){
+    .titleh2project {
+        font-size: 40px;
+    }
+    .project-tile{
+        max-width: 250px;
+    }
+    nav ul{
+        transform: translateX(-15px);
+    }
+    nav ul li a {
+        font-size: 11px;
+    } 
+    nav ul li a:hover{
+        letter-spacing: 0px;
+    }
+    .changer{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 30px;
+    }
+    .text2{
+        font-size: 42px;
+    }
+    #contact h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:281px){
+    nav ul li a {
+        font-size: 10px;
+    }
+    nav ul{
+        transform: translateX(-17px);
+    }
+    .text2{
+        font-size: 35px;
+    }
+    .project-tile {
+        max-width: 223px;
+    }
+    .changer{
+        font-size: 25px;
+    }
+    .text{
+        font-size: 25px;
+    }
+}
